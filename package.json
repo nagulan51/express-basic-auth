@@ -1,5 +1,5 @@
 {
-  "name": "express-basic-auth-1",
+  "name": "express-basic-auth-v2",
   "version": "1.2.2",
   "description": "Plug & play basic auth middleware for express",
   "keywords": [
