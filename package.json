@@ -1,17 +1,7 @@
 {
-  "name": "express-basic-auth",
-  "version": "1.2.1",
+  "name": "express-basic-auth-1",
+  "version": "1.2.2",
   "description": "Plug & play basic auth middleware for express",
-  "main": "index.js",
-  "types": "express-basic-auth.d.ts",
-  "scripts": {
-    "check-dts": "tsc express-basic-auth.d.ts",
-    "test": "mocha test.js && npm run check-dts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LionC/express-basic-auth.git"
-  },
   "keywords": [
     "express",
     "middleware",
@@ -20,12 +10,23 @@
     "authentication",
     "http"
   ],
-  "author": "LionC <me@lionc.de>",
-  "license": "MIT",
+  "homepage": "https://github.com/nagulan51/express-basic-auth#readme",
   "bugs": {
-    "url": "https://github.com/LionC/express-basic-auth/issues"
+    "url": "https://github.com/nagulan51/express-basic-auth/issues"
   },
-  "homepage": "https://github.com/LionC/express-basic-auth#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagulan51/express-basic-auth.git"
+  },
+  "license": "MIT",
+  "author": "Nagulan <nagulan77fr@icloud.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "express-basic-auth.d.ts",
+  "scripts": {
+    "check-dts": "tsc express-basic-auth.d.ts",
+    "test": "mocha test.js && npm run check-dts"
+  },
   "dependencies": {
     "basic-auth": "^2.0.1"
   },
